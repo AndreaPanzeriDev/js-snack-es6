@@ -40,5 +40,5 @@ console.log(inteligentPeople);
 
 
 //take all the inteligentPeople and check if their id is higher than 120
-const idSpacialPeople = students.filter((element) => element.grades > 70 && element.id > 120);
+const idSpacialPeople = students.filter((element) => inteligentPeople.includes(element) && element.id > 120);
 console.log(idSpacialPeople);
