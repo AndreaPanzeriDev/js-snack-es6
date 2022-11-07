@@ -33,3 +33,12 @@ const bigname = students.map((element) => {
 });
 
 console.log(bigname);
+
+// take all the people with a score higher than 70
+const inteligentPeople = students.filter((element) => element.grades > 70);
+console.log(inteligentPeople);
+
+
+//take all the inteligentPeople and check if their id is higher than 120
+const idSpacialPeople = students.filter((element) => element.grades > 70 && element.id > 120);
+console.log(idSpacialPeople);
