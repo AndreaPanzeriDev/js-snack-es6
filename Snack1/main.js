@@ -18,6 +18,7 @@ if (min < 0 || max > (myArray.length - 1)) {
     location.reload();
 } else {
     ciclo1()
+
     ciclo2();
 }
 
