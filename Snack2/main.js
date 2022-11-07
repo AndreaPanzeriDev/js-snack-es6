@@ -27,5 +27,9 @@ let students = [
 
 
 
+//all the letter of the name is uppercase
+const bigname = students.map((element) => {
+    return element.name.toUpperCase();
+});
 
-console.log(namessUpper);
+console.log(bigname);
