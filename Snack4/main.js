@@ -63,7 +63,7 @@ function randomNumber() {
 function newArray(){
     for (let i = 0; i < football_team.length; i++){
         let {name, fouls} = football_team[i];
-        let obj = {...football_team, name, fouls};
+        let obj = {...football_team.name, name, fouls};
         info.push(obj);
     }
     console.log(info);
