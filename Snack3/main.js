@@ -2,6 +2,10 @@
 Creare un array di oggetti: Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso. Stampare a schermo la bici con peso minore utilizzando destructuring e template literal
 */
 
+//global variable
+let limit = 1000;
+let lighter_one;
+
 
 const bike = [
     {
@@ -18,8 +22,7 @@ const bike = [
     }
 ];
 
-let limit = 1000;
-let lighter_one;
+
 
 //start i cicle to check every single object in the array
 for(let i = 0; i < bike.length; i++){
