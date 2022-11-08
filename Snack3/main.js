@@ -21,12 +21,17 @@ const bike = [
 let limit = 1000;
 let lighter_one;
 
+//start i cicle to check every single object in the array
 for(let i = 0; i < bike.length; i++){
+    //take name and kg
     let {name, kg} = bike[i];
+    //check with an global variable if the selected bike is lighter
     if(kg < limit){
+        //if is lighter safe into global variable
         limit=kg;
         lighter_one = name;
     }
 }
 
+//print the data from the global variable
 console.log(`la bici più leggera è ${lighter_one} e pesa ${limit}kg`);
